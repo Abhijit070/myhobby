@@ -1,0 +1,103 @@
+body {
+color: black;    
+text-align: center;   
+}
+
+img {
+width: 200px;
+margin: 75px;   
+height: 200px;
+transition: transform .10s;    
+}
+
+.menu{
+list-style: none;
+position: absolute;
+z-index: 10;    
+top: 30px;
+right: 30px;
+cursor: pointer;
+float: right;    
+}
+
+.link{
+float: left;
+padding-top: 5px;
+padding-left: 9px;
+padding-right: 9px;
+padding-bottom: 5px; 
+color:crimson;
+display: inline;    
+}
+
+.link:hover{
+background-color: chocolate;    
+}
+
+.line{
+    height: 10px;
+    width: 100px;
+    background-color: black;
+    margin: 9px auto;
+    
+}
+
+html
+{
+ scroll-behavior: smooth;
+}
+
+}
+#bio{
+    padding:20px;
+    font-size:42;
+    background:pink;
+}
+.menu{
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:black;
+}
+.menu a{
+color:black !important;
+}
+
+a{
+  text-decoration:none;
+}
+
+.cricket{
+font-family: 'Cinzel Decorative', cursive;
+}
+
+#Home{
+background: linear-gradient(aqua,blue);   
+} 
+
+#app,#games,#art,#inspiration{
+width: 100%;
+height: 800px;
+background-color: aquamarine;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+    
+#chat{
+background-color: aquamarine;
+width: 100%;
+height: 800px;    
+}
+
+.me{
+vertical-align: middle;
+}
+
+h1{
+font-family: 'Cinzel Decorative', cursive;    
+}
